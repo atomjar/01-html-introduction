@@ -14,13 +14,13 @@ body {
 
 .top-nav {
   width: 100%;
-  background: rgba(120,120,120, 0.2)
+  background: rgba(120,120,120, 0.2);
   border: solid 1px #f1f1f1;
 }
 
 .nav-list {
   display: flex;
-  margin: 0
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -32,15 +32,17 @@ body {
 
 .nav-list__item--brand {
   flex: 1;
-
+  margin: 1rem 0.5rem;
   font-weight: bold;
+  text-transform: uppercase;
+
 }
 
 .hero {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
   height: 100vh;
   text-align: center;
 
@@ -56,6 +58,7 @@ body {
 
 .hero__container {
   max-width: 60rem;
+}
 
 
 .hero__title {
@@ -66,24 +69,34 @@ body {
 }
 
 .section-container {
-  max-width: 60rem;
+  max-width: 100rem;
   margin: auto;
   overflow: hidden;
 }
 
 .divider--hero {
   border-bottom-color: #00a5bb;
+  max-width: 10rem;
+  border-bottom-width: 0.5rem;
+
 }
 
 .hero__text {
   margin: 2rem 0;
   font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .bg-pop {
-  padding: 1rem 2rem;
+  padding: 4rem 12rem;
   background: #00525d;
   color: #f1f1f1;
+  font-weight: lighter;
+}
+
+.student-text {
+  font-size: .9rem;
+  text-align: center;
 }
 
 .divider {
@@ -92,8 +105,15 @@ body {
   border-bottom-style: solid;
   border-bottom-color: #00a5bb;
   wide: 10rem;
-  margin: auto;
+  max-width: 10rem;
+  border-top: 2rem;
 }
+
+.gray-divider {
+  height: .6em;
+  background-color: #353c3d;
+}
+
 
 #bg-photo {
   background: url('http://i.imgur.com/PNpGUvq.jpg?1') no-repeat center center;
@@ -120,7 +140,7 @@ body {
 
 .bg-standard {
   padding: 1rem 2rem;
-  color: #2f2f2f;
+  color: #3f3f3f;
 }
 
 .row__column {
@@ -136,7 +156,7 @@ figure {
 }
 
 figure span {
-  color: 00a5bb;
+  color: #00a5bb;
 }
 
 .photo-title {
